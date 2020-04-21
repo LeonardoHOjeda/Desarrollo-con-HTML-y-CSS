@@ -20,6 +20,8 @@ header {
     background-size: 100% 100%;
     height: 100vh;
     color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 #main-container header #menu {
