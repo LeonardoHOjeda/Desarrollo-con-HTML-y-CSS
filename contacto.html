@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina de contacto</title>
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow:100,300i,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="img/logo.png" alt="Logotipo" width="80" />
+                </a>
+                <nav class="navegacion">
+                    <a href="index.html">Home</a>
+                    <a href="sobremi.html">Feature</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <!-- Contenedor -->
+    </header>
+
+    <h1 class="fw-300 centrar-texto">Contacto</h1>
+
+    <main class="contenedor seccion contenido-centrado fuente-lato">
+        <h2 class="fw-300 centrar-texto">Llena el formulario</h2>
+
+        <form action="">
+            <fieldset>
+                <legend>Información de contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Nombre">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="E-mail" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" placeholder="Teléfono" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Medio de contacto</legend>
+                <p>¿Qué medio usa para contactarnos?</p>
+
+                <div class="forma-contacto">
+                    <label for="tel">Teléfono</label>
+                    <input type="radio" name="contacto" id="tel">
+
+                    <label for="correo">Email</label>
+                    <input type="radio" name="contacto" id="correo">
+                </div>
+
+                <p>¿Qué día y qué hora puedo contactarlo?</p>
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="" id="fecha">
+
+                <label for="hora">Hora:</label>
+                <input type="time" name="" id="hora" min="9:00" max="17:00">
+            </fieldset>
+            <input type="submit" value="Mandar datos" class="boton boton-verde">
+        </form>
+    </main>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="index.html">Home</a>
+                <a href="sobremi.html">Feature</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyright">Todos los derechos reservados &copy;</p>
+        </div>
+    </footer>
+</body>
+
+</html>
